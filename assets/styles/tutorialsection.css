@@ -1,0 +1,21 @@
+/* Styles for the tutorial section */
+.tutorial {
+  padding: 20px;
+}
+
+.tutorial-header {
+  text-align: center;
+  font-size: 2em;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+/* .tutorial-video {
+  width: 100%;
+  max-width: 560px;
+  height: auto;
+} */

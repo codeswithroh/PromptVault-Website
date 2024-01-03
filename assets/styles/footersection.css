@@ -1,0 +1,31 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.icon-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 18em;
+  background-color: #aa7bd1;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 0.8em 1em;
+}
+
+.youtube {
+  background-color: #ff6262 !important;
+  color: white;
+}
+
+.donate {
+  background-color: #feffcf !important;
+}
+
+.linkedin {
+  background-color: #54b6fe !important;
+  color: white;
+}

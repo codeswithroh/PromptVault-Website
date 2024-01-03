@@ -1,0 +1,47 @@
+/* Styles for the hero section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding: 20px;
+}
+
+/* Styles for the left side of the hero section */
+.hero-left {
+  flex: 1.5;
+}
+
+.hero-left img {
+  width: 100%;
+  height: auto;
+}
+
+/* Styles for the right side of the hero section */
+.hero-right {
+  flex: 1;
+  padding: 20px;
+}
+
+.hero-right h1 {
+  font-size: 3em;
+  margin-bottom: 0px;
+}
+
+.hero-right p {
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+
+/* Styles for the CTA button */
+.hero-right .cta {
+  margin-top: 1em;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #26446d;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}

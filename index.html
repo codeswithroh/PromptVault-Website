@@ -10,13 +10,17 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="./assets/styles/index.css" />
+    <link rel="stylesheet" href="./assets/styles/herosection.css" />
+    <link rel="stylesheet" href="./assets/styles/tutorialsection.css" />
+    <link rel="stylesheet" href="./assets/styles/featuresection.css" />
+    <link rel="stylesheet" href="./assets/styles/footersection.css" />
   </head>
   <body>
     <header>
       <div class="navbar">
         <div class="logo">
-          <div><img src="./assets/logo.png" alt="logo" /></div>
+          <div><img src="./assets/images/logo.png" alt="logo" /></div>
           <div class="logo-text"><h3>PromptVault</h3></div>
         </div>
         <div class="nav-links">
@@ -29,7 +33,95 @@
       </div>
     </header>
     <main>
-      <p>This is a simple demo website.</p>
+      <!-- hero section -->
+      <div class="hero">
+        <!-- left side will be an image -->
+        <div class="hero-left">
+          <img
+            src="./assets/images/header_img.png"
+            alt="Description of the image"
+          />
+        </div>
+        <div class="hero-right">
+          <h1>PROMPTVAULT</h1>
+          <p>
+            Unlock boundless creativity with PROMPTVAULT—your Chrome extension
+            for effortlessly saving and organizing prompts, fueling inspiration
+            at your fingertips.
+          </p>
+          <a href="link-to-chrome-extension" class="cta">Add to Chrome</a>
+        </div>
+      </div>
+      <!-- tutorial section -->
+      <div class="tutorial">
+        <!-- a header at the center named Video Tutorial -->
+        <h2 class="tutorial-header">Video Tutorial</h2>
+        <!-- below it is an embedded video -->
+        <div class="video-container">
+          <iframe
+            class="tutorial-video"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/1U1V6WgnnXU?si=6hw-j7tFSMgzlmt8"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+      <div class="feature-section">
+        <h2 class="tutorial-header">Features</h2>
+        <div class="card-row">
+          <div class="card">
+            <div class="icon">
+              <img src="./assets/images/Save.svg" alt="icon" />
+            </div>
+            <div class="text">Save and Use Prompts with Ease</div>
+          </div>
+          <div class="card">
+            <div class="icon">
+              <img src="./assets/images/Sync.svg" alt="icon" />
+            </div>
+            <div class="text">One-Click Export/Import Magic</div>
+          </div>
+        </div>
+        <div class="card-row">
+          <div class="card">
+            <div class="icon">
+              <img src="./assets/images/Category.svg" alt="icon" />
+            </div>
+            <div class="text">Categorize for Creative Order</div>
+          </div>
+          <div class="card">
+            <div class="icon">
+              <img src="./assets/images/cursor.png" alt="icon" />
+            </div>
+            <div class="text">Web Text Selection to Prompt</div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="icon-btn youtube">
+            <div class="icon youtube">
+              <img src="./assets/images/youtube.svg" alt="icon" />
+            </div>
+            <div class="text">Subscribe to my channel</div>
+          </div>
+        <div class="icon-btn donate">
+            <div class="icon donate">
+              <img src="./assets/images/donate.svg" alt="icon" />
+            </div>
+            <div class="text">Donate to support this project</div>
+          </div>
+          <div class="icon-btn linkedin">
+              <div class="icon linkedin">
+                <img src="./assets/images/linkedin.svg" alt="icon" />
+              </div>
+              <div class="text">Connect with me</div>
+            </div>
+        </div>
+      </div>
     </main>
     <footer>
       <p>Copyright &copy; 2024 codeswithroh</p>
