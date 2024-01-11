@@ -1,6 +1,7 @@
 /* Styles for the tutorial section */
-.tutorial {
+.tutorial-section {
   padding: 20px;
+  margin-top: 7em;
 }
 
 .tutorial-header {

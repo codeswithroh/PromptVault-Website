@@ -10,6 +10,8 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/images/logo_16.png" type="image/x-icon">
     <link rel="stylesheet" href="./assets/styles/index.css" />
     <link rel="stylesheet" href="./assets/styles/herosection.css" />
     <link rel="stylesheet" href="./assets/styles/tutorialsection.css" />
@@ -25,8 +27,8 @@
         </div>
         <div class="nav-links">
           <ul>
-            <li><a href="#">Tutorial</a></li>
-            <li><a href="login.php">Features</a></li>
+            <li><a href="#tutorial">Tutorial</a></li>
+            <li><a href="#feature">Features</a></li>
             <li><button id="donate-button-header" class="secondary-btn">Donate</button></li>
           </ul>
         </div>
@@ -52,25 +54,13 @@
           <a href="link-to-chrome-extension" class="cta">Add to Chrome</a>
         </div>
       </div>
-      <!-- tutorial section -->
-      <div class="tutorial">
-        <!-- a header at the center named Video Tutorial -->
+      <div id="tutorial" class="tutorial-section">
         <h2 class="tutorial-header">Video Tutorial</h2>
-        <!-- below it is an embedded video -->
         <div class="video-container">
-          <iframe
-            class="tutorial-video"
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/1U1V6WgnnXU?si=6hw-j7tFSMgzlmt8"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/bGiuhnQnyUQ?si=idVY2o0kWvzLfNhZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
       </div>
-      <div class="feature-section">
+      <div id="feature" class="feature-section">
         <h2 class="tutorial-header">Features</h2>
         <div class="card-row">
           <div class="card">
@@ -123,8 +113,8 @@
         </div>
       </div>
     </main>
-    <footer>
-      <p>Copyright &copy; 2024 codeswithroh</p>
+    <footer class="footer">
+      <div>2024 &copy; codeswithroh</div>
     </footer>
     <script src="index.js"></script>
   </body>
