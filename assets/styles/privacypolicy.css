@@ -1,0 +1,37 @@
+body {
+  line-height: 1.6;
+  color: #333;
+  padding: 20px;
+}
+
+.privacy-header {
+  text-align: center;
+}
+
+h1,
+h2 {
+  color: #444;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #004d99;
+}
